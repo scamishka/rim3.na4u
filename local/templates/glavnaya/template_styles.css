@@ -1,0 +1,524 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      height: 100%;
+}
+body {
+  margin: 0;
+  position: relative;
+  height: 100%;
+}
+img {
+  border: 0;
+}
+@font-face {
+  font-family: 'GothamPro-Bold';
+  src: url('fonts/GothamPro-Bold.woff') format('woff'),
+       url('fonts/GothamPro-Bold.ttf') format('truetype'),
+       url('fonts/GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+       src: url('fonts/ofont.ru_Gotham Pro.eot');
+       src: url('fonts/ofont.ru_Gotham Pro.woff2') format('woff2'),
+       url('fonts/ofont.ru_Gotham Pro.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: "GothamProRegular";
+    src: url("fonts/GothamProRegular.eot");
+    src: url("fonts/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/GothamProRegular.woff") format("woff"),
+    url("fonts/GothamProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.yuramax_block {
+    font-family: 'GothamPro-Bold';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    padding-top: 46px;
+	z-index: 0
+}
+.yuramax_inner_block {
+    position: absolute;
+    width: 100%;
+    height: -webkit-calc(100% - 58px);
+    height: -o-calc(100% - 58px);
+    height: calc(100% - 58px);
+    left: 0;
+    top: 0;
+    z-index: -1;                    
+    background: url('images/main.jpg') 50% 50% no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+}
+.yuramax_left {
+    position: absolute;
+    width: 72%;
+    left: 0;
+}
+.yuramax_left a,
+.yuramax_left ul {
+    display: inline-block;
+}
+.yuramax_left .mouse {
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.yuramax_right {
+    position:  absolute;
+    right: 0;
+    padding-right: 40px;
+	padding-top:80px;
+    width: 30%;
+}
+.clearfix {
+    clear: both;
+}
+.yuramax_bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.yuramax_menu {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 60%;
+}
+.yuramax_menu li {
+    float: left;
+    width: 32%;
+    margin-bottom: 6px;
+    margin-right: 6px;
+}
+.yuramax_menu li a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    background: rgba(0,0,0,0.4);
+    padding: 23px 0;
+}
+.yuramax_bottom {
+    background: #000;
+    color: #fff;
+    font-size: 19.63px;
+}
+.yuramax_bottom h2 {
+    line-height: 19.63px;
+    margin: 20px 0;
+    letter-spacing: 40px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+.yuramax_left img {
+    vertical-align: middle;
+	#max-height: 134px;
+}
+.yuramax_right p {
+    text-align: right;
+}
+.yuramax_right p a {
+    display: inline-block;
+}
+.yuramax_right p ,
+.yuramax_right a {
+    color: #fff;
+    font-family: "GothamProRegular";
+    text-decoration: none;
+    font-size: 17px;
+}
+.yuramax_right p span {
+    font-size: 22px;
+    font-family: 'GothamPro-Bold';
+    background: url('images/arrow.png') left center no-repeat;
+    padding-left: 32px;
+    cursor: pointer;
+}
+.yuramax_contact {
+    position: relative;
+    top:  -15px;
+}
+.yuramax_contact  ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fff;
+    padding: 0;
+    visibility: hidden;
+}
+.yuramax_contact ul li,
+.yuramax_contact ul li a {
+    list-style: none;
+    padding: 15px 15px;
+    font-size: 22px;
+    color: #000;
+    font-family: 'GothamPro-Bold';
+}
+.yuramax_contact ul li a {
+    padding: 0;
+}
+.yuramax_contact.active ul {
+    visibility: visible;
+}
+.yuramax_block h1 {
+    font-size: 120px;
+    color: #fff;
+    line-height: 60px;
+    font-family: 'GothamPro-Bold';
+    margin-top: 110px;
+    text-shadow:  0px 5px 30px #424242;
+    filter:dropshadow(color= 0px 0px 20px #424242);
+    float: right;
+    margin-right: 95px;
+    text-transform: uppercase;
+}
+.yuramax_block h1 .yuramax_h1 {
+    font-size: 45.5px;
+}
+.yuramax_block h1 .yuramax_h2 {
+    font-size: 58px;
+    position: relative;
+    top: -10px;
+}
+.yuramax_block h1 span {
+    padding-left: 6px;
+}
+.yuramax_bottom ul {
+    position: absolute;
+    right: 28px;
+    top: 10px;
+    padding: 0;
+    margin: auto 0;
+}
+.yuramax_bottom ul li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.yuramax_menu_2 {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    bottom: 42px;
+}
+.yuramax_menu_2 ul {
+    padding: 0;
+}
+.yuramax_menu_2 li {
+    list-style: none;
+    margin-bottom: 6px;
+}
+.yuramax_menu_2 li a {
+    font-size: 17px;
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+    font-family: "GothamProRegular";
+    padding: 13px 9px 13px 78px;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+}
+.yuramax_menu_2 li:hover a {
+    color: #f7f200;
+}
+.yuramax_menu li:hover a {
+    color: #f7f200;
+}
+.shar {
+    margin-left: 50%;
+	float: left;
+}
+.shar2{
+	width: 121px;
+	margin-top: 26px;
+	margin-left: 5%;
+	display: inline-block;
+}
+@media screen and (max-width: 1780px) {
+    .yuramax_menu li a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .yuramax_menu li a {
+        font-size: 16px;
+    }
+     .yuramax_inner_block {
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    height: 100%;
+}
+}
+@media screen and (max-width: 1500px) {
+    .yuramax_left {
+        position: relative;
+        width: 100%;
+    }
+    .yuramax_left .mouse {
+        right: 30px;
+    }
+    .yuramax_block h1 {
+        position: absolute;
+        left: 35%;
+    }
+    
+    
+}    
+@media screen and (max-width: 1400px) { 
+    .yuramax_bottom {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1320px) { 
+    
+     .yuramax_bottom {
+        font-size: 14px;
+    }
+    .yuramax_right {
+        width: 100%;
+    }
+   
+}
+@media screen and (max-width: 1280px) { 
+    .yuramax_bottom h2 {
+        letter-spacing: 34px;
+    }
+    
+}
+@media screen and (max-width: 1190px) {
+   .yuramax_left .mouse {
+        display: none;
+   }
+   .yuramax_bottom h2 {
+    letter-spacing: 30px;
+   }
+   .yuramax_block h1 {
+    margin-top: 150px;
+   }
+}
+@media screen and (max-width: 1110px) {
+   .yuramax_bottom h2 {
+    letter-spacing: 27px;
+   }
+@media screen and (max-width: 1060px) {
+    .yuramax_bottom h2 {
+      letter-spacing: 20px;
+  }
+}
+
+@media screen and (max-width: 1007px) {
+    .yuramax_menu li a {
+      font-size: 15px;
+}
+.shar {
+    margin-left: 50%;
+}
+}
+@media screen and (max-width: 980px) {
+     .yuramax_menu {
+        width: 56%;
+     }
+     .yuramax_menu li a {
+       font-size: 13px;
+       padding: 27px 0;
+     }
+    
+     .yuramax_image {
+        display: none;
+     }
+     .shar {
+    margin-left: 40%;
+    }
+}
+@media screen and (max-width: 860px) {
+    .yuramax_left a {
+        width: 100%;
+    }
+    .yuramax_left a img {
+        margin: 0 auto;
+        display: block;
+    }
+    .yuramax_menu {
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+    .yuramax_block h1 {
+        font-size: 150px;
+    }
+    .yuramax_block h1 .yuramax_h1 {
+        font-size: 57.5px;
+    }
+    .yuramax_block h1 .yuramax_h2 {
+        font-size: 75px;
+    }
+    .yuramax_block h1 {
+        left: 40%;
+    }
+    .yuramax_bottom h2 {
+        letter-spacing: 13px;
+    }
+    .shar {
+    margin-left: 30%; width: 70% !important;
+    }
+}
+@media screen and (max-width: 780px) {
+    .yuramax_bottom h2 {
+      letter-spacing: 9px;
+   }
+   .shar {
+        
+        margin-left: 30%;    width: 70% !important;
+    }
+    .yuramax_right {
+        padding-right: 5px;  
+        position: static;
+        
+     }
+}
+@media screen and (max-width: 684px) {
+    .yuramax_bottom h2 {
+     letter-spacing: 5px;
+}
+.yuramax_block h1 {
+    left: 50%;
+}
+.shar {
+    
+    margin-left: 30%;    width: 70% !important;
+    }
+    .yuramax_right {
+        padding-right: 5px;  
+        position: static;
+        
+     }
+}
+@media screen and (max-width: 650px) {
+    .yuramax_block h1 {
+      font-size: 135px;
+   }
+   .yuramax_block h1 .yuramax_h1 {
+      font-size: 51.5px;
+   }
+   .yuramax_block h1 .yuramax_h2 {
+      font-size: 67px;
+   }
+    .yuramax_block h1,
+    .yuramax_block,
+    .yuramax_menu_2,
+    .yuramax_bottom,
+    .yuramax_inner_block,
+    .yuramax_bottom ul {
+        position: static;
+    }
+     .yuramax_bottom {
+        padding: 15px 0;
+        text-align: center;
+     }
+     .yuramax_right {
+        padding-right: 5px;  
+        position: static;
+
+     }
+     .shar {
+    
+    margin-left: 10%;    
+    }
+    .yuramax_right {
+        padding-right: 5px;  
+        position: static;
+        
+     }
+}
+
+@media screen and (max-width: 608px) {
+    .yuramax_bottom h2 {
+       letter-spacing: 3px;
+    }
+    .shar {
+    
+    margin-left: 10%;
+    }
+    .yuramax_right {
+        padding-right: 5px;  
+        position: static;
+        
+     }
+}
+@media screen and (max-width: 580px) {
+     .yuramax_block h1 {
+        font-size: 120px;
+    }
+    .yuramax_block h1 .yuramax_h1 {
+        font-size: 46.5px;
+    }
+    .yuramax_block h1 .yuramax_h2 {
+        font-size: 60px;
+    }
+    .shar {
+    
+    margin-left: 10%;
+    }
+}
+@media screen and (max-width: 449px) {
+    .yuramax_menu li {
+        width: 47%;
+    }
+    .yuramax_menu {
+        padding-left: 0;
+    }
+    .yuramax_right p span {
+        font-size: 18px;
+    }
+    .yuramax_menu li a {
+        font-size: 12px;
+    }
+    .yuramax_left a img {
+        max-width: 100%;
+    }
+    .yuramax_bottom h2 {
+        letter-spacing: 0;
+    }
+    .shar {
+    
+    margin-left: 10%;
+    }
+}
+@media screen and (max-width: 380px) {
+    .yuramax_block h1 {
+        margin: 170px auto 20px auto;
+    }
+    .yuramax_menu li {
+        width: 100%;
+    }
+    .yuramax_menu li a {
+        font-size: 16px;
+    }
+    .yuramax_right p {
+        text-align: center;
+    }
+    .yuramax_right p a {
+        font-size: 15px;
+    }
+    .shar {
+        margin-left: 15%;
+    }
+}

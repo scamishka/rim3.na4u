@@ -1,0 +1,11 @@
+.idea
+*.jpg
+*.png
+*.doc
+*.html
+venv
+*.xml
+*.js
+*.pdf
+*.svg
+*.mp4
