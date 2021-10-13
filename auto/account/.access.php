@@ -1,0 +1,9 @@
+<?
+$PERM["zapchast"]["8"]="D";
+$PERM["zapchast"]["3"]="D";
+$PERM["zapchast"]["4"]="D";
+$PERM["generatsiya-vypuskov.php"]["*"]="D";
+$PERM["add"]["G23"]="D";
+$PERM["add"]["G36"]="D";
+$PERM["add"]["*"]="D";
+?>

@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Главная", 
+		"/auto/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Инструкции", 
+		"/auto/instruktsii/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Инструменты", 
+		"https://irim3.ru/catalog/instrumenty/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Бренды", 
+		"/auto/brands/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Авторы", 
+		"/auto/avtory/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/auto/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
