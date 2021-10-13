@@ -143,6 +143,18 @@
 				)
 			);};
 		?>
+        <?if ($APPLICATION->GetCurDir()=="/personal/"){
+            $APPLICATION->IncludeComponent(
+                "bitrix:main.include",
+                "",
+                Array(
+                    "AREA_FILE_SHOW" => "page",
+                    "AREA_FILE_SUFFIX" => "inc_personal",
+                    "EDIT_TEMPLATE" => ""
+                )
+            );
+        };
+        ?>
 	<div class="container">
 		<?$APPLICATION->IncludeComponent("bitrix:breadcrumb","",Array(
 		        "START_FROM" => "0", 
