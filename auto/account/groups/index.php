@@ -85,7 +85,7 @@ if(CModule::IncludeModule("iblock")){
 								<li><a href="/auto/account/favorites/">Избранное</a></li>
 								<li class="active"><a href="/auto/account/groups/">Мои группы</a></li>
 								<li><a href="/auto/account/notifications/">Оповещения</a></li>								
-								<li><a href="/auto/account/pay/">Реклама</a></li>
+								<li><a href="/auto/account/pay/">Разместить баннер</a></li>
 							</ul>
 						</div>
 					</div>

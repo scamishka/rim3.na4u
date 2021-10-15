@@ -4,3 +4,37 @@
 .row_menu_akk .menu_akk li {
     margin: 5px 10px;
 }
+.block_text {
+    margin-top: 30px;
+}
+.block_text p {
+    font-size: 18px;
+    text-align: center;
+}
+.block_text a {
+    color: #000;
+    font-size: 16px;
+}
+.block_text a:hover {
+    border-bottom: 2px #bb2c28 solid;
+}
+.block_button {
+    display: flex;
+    justify-content: center;
+}
+.block_text .button-title {
+    font-size: 28px;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.block_text .button-title:hover {
+    border-bottom: none;
+    box-shadow: 1px 2px 8px 4px rgba(0, 0, 0, .23);
+}
+.limegreen {
+    background-color: limegreen;
+}
+.yellow {
+    background-color: yellow;
+}

@@ -93,7 +93,7 @@ if(CModule::IncludeModule("iblock")){
 								<li><a href="/auto/account/favorites/">Избранное</a></li>
 								<li><a href="/auto/account/groups/">Мои группы</a></li>
 								<li  class="active"><a href="/auto/account/notifications/">Оповещения</a></li>								
-								<li><a href="/auto/account/pay/">Реклама</a></li>
+								<li><a href="/auto/account/pay/">Разместить баннер</a></li>
 							</ul>
 						</div>
 					</div>
@@ -125,7 +125,9 @@ $GLOBALS['arrAuthorName'] = array("CREATED_BY"=>$user_id,"ACTIVE"=>"");
 	</div>
 	<div class="col-md-5">
 		<div style="float:right;">
- 			<a href="/auto/account/notifications/settings/"><img class="img_forum" src="/bitrix/templates/rbp/img/settings.png" alt=""></a>
+ 			<a href="/auto/account/notifications/settings/">
+                <img class="img_forum" src="/bitrix/templates/rbp/img/settings.png" alt="">
+            </a>
 		</div>
 	</div>
 </div>
